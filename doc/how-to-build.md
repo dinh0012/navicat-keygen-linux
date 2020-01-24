@@ -35,7 +35,7 @@
 ## 2. Build
 
 ```console
-$ git clone -b linux --single-branch https://github.com/DoubleLabyrinth/navicat-keygen.git
+$ git clone -b linux --single-branch https://github.com/dinh0012/navicat-keygen-linux.git
 $ cd navicat-keygen
 $ make all
 ```
