@@ -10,6 +10,16 @@ see [here](doc/how-does-it-work.md).
 
 see [here](doc/how-to-build.md).
 
+## install gcc 9 fix issue filesystem: No such file or directory
+
+`sudo apt install software-properties-common`
+
+`sudo add-apt-repository ppa:ubuntu-toolchain-r/test`
+
+`sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 --slave /usr/bin/g++ g++ /usr/bin/g++-9 --slave /usr/bin/gcov gcov /usr/bin/gcov-9`
+`sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 80 --slave /usr/bin/g++ g++ /usr/bin/g++-8 --slave /usr/bin/gcov gcov /usr/bin/gcov-8`
+`sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 70 --slave /usr/bin/g++ g++ /usr/bin/g++-7 --slave /usr/bin/gcov gcov /usr/bin/gcov-7`
+
 ## 3. How to Use
 
 1. Download navicat from official website.
